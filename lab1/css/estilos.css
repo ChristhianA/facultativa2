@@ -1,0 +1,63 @@
+header, footer{
+    background-color: black;
+    color: white; /* color del texto */
+    padding: 2em;  /* espacio interno */
+    
+}
+section{
+    margin-top:100px; 
+    margin-bottom:100px; 
+    padding: 20px;
+
+}
+h1{
+    color: orange;
+    font-family: Julee;
+    font-size: 3.4em;
+    margin: 0;
+}
+h2{
+    font-family: Julee;
+    font-size: 2em;
+ 
+}
+h4{
+    margin:0;
+}
+
+.detalle, p{
+    font-family: PT Sans Narrow;
+    font-size: 1.4em;
+    line-height: 28px;
+    text-align: justify;
+}
+
+button{
+    border-radius: 50px;
+    font-size: 1.2em;
+    height: 50px;
+    width: 250px;
+    background-color: yellow;
+}
+
+button:hover{
+    background-color: white;
+}
+
+li{
+    display: inline-block;
+    padding-right: 25px;
+}
+
+a{
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+nav{
+    background-color: orange;
+    padding: 1.2em;
+    text-align: center;
+}
+
+
