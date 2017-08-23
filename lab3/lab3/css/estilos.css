@@ -21,3 +21,10 @@
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+#sidenav-overlay{
+  z-index: 0;
+}
+nav ul a:hover{
+  background: orangered;
+  color: black;
+}

@@ -10,45 +10,64 @@
     
 </head>
 <body>
-
-  <mz-slider> </mz-slider>
-
-  <!--menu responsivo-->
+   <!--menu responsivo-->
+  <div class="navbar-fixed">
+    <nav class="black accent-3">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Christhian Acevedo</a>
+        <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contactos</a></li>
+          <li><a href="#">Noticias</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-menu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contactos</a></li>
+          <li><a href="#">Noticias</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
   <!--Slider de imagenes-->
-
     <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="img/imagen1.jpg"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Etiqueta HTML5!</h3>
-          <h5 class="light grey-text text-lighten-3">Uso correcto de la semantica web</h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/imagen2.jpg"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Propiedades CSS</h3>
-          <h5 class="light grey-text text-lighten-3">Diseño de estilos en cascada</h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/imagen3.jpg"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Java script</h3>
-          <h5 class="light grey-text text-lighten-3">interactividad en nestro sitio web</h5>
-        </div>
-      </li>
-      <li>
-        <img src="img/imagen4.jpg"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Materialize CSS</h3>
-          <h5 class="light grey-text text-lighten-3">Responsibidad y adaptabilidad</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
+      <ul class="slides">
+        <li>
+          <img src="img/imagen1.jpg" alt=""> <!-- random image -->
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/imagen2.jpg" alt=""> <!-- random image -->
+          <div class="caption left-align">
+            <h3>Left Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/imagen3.jpg" alt=""> <!-- random image -->
+          <div class="caption right-align">
+            <h3>Right Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/imagen4.jpg" alt=""> <!-- random image -->
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+     
+
 
   <!--inicio del contenido main-->
   <main>
@@ -99,7 +118,7 @@
     $( document ).ready(function(){
       $(".button-collapse").sideNav();
       $(".dropdown-button").dropdown();
-       $(',slider'),slider({heigth:250});
+       $('.slider').slider({heigth:250});
     })
      
   </script>
