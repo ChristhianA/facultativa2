@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Uso de MaterializeCSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+
+  <mz-slider> </mz-slider>
+
+  <!--menu responsivo-->
+
+  <!--Slider de imagenes-->
+
+    <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/imagen1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Etiqueta HTML5!</h3>
+          <h5 class="light grey-text text-lighten-3">Uso correcto de la semantica web</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/imagen2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Propiedades CSS</h3>
+          <h5 class="light grey-text text-lighten-3">Diseño de estilos en cascada</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/imagen3.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Java script</h3>
+          <h5 class="light grey-text text-lighten-3">interactividad en nestro sitio web</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/imagen4.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Materialize CSS</h3>
+          <h5 class="light grey-text text-lighten-3">Responsibidad y adaptabilidad</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!--inicio del contenido main-->
+  <main>
+    <!--seccion de servicios-->
+    <section class="row">
+      <h2 class="center-align red-text">Servicios</h2>
+      <p class="center-align orange">Estos son nuestros servicios para usted</p>
+      <!-- primer articulo una columna-->
+        <article class='col s12 m4'>
+          <div class='icon-block'>
+            <h2 class='center light-blue-text'><img width='30%' src='img/icon/computer.png' alt=''></h2>
+            <h5 class='center blue-text'>Desarrollo WEb</h5>
+            <p class='light'>Uso de herramientas para un sitio responsibo usando materialize y css.</p>
+          </div>
+        </article>  
+
+              <!-- Segundo articulo una columna-->
+        <article class='col s12 m4'>
+          <div class='icon-block'>
+            <h2 class='center light-blue-text'><img width='30%' src='img/icon/floppy.png' alt=''></h2>
+            <h5 class='center blue-text'>Responsibidad</h5>
+            <p class='light'>Haz que tu sitio web se vea en cualquier movil.</p>
+          </div>
+        </article> 
+
+              <!-- tercer articulo una columna-->
+        <article class='col s12 m4'>
+          <div class='icon-block'>
+            <h2 class='center light-blue-text'><img width='30%' src='img/icon/tablet.png' alt=''></h2>
+            <h5 class='center blue-text'>Despliegue de imagenes</h5>
+            <p class='light'>utilizamos github para el despliegue de imangenes.</p>
+          </div>
+        </article> 
+    </section>
+  </main>
+  
+<!--Segunda secciom -->
+<section>
+  
+</section>
+
+    
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+
+  <script>
+    $( document ).ready(function(){
+      $(".button-collapse").sideNav();
+      $(".dropdown-button").dropdown();
+       $(',slider'),slider({heigth:250});
+    })
+     
+  </script>
+</body>
+</html>
