@@ -102,14 +102,131 @@
           </div>
         </article> 
     </section>
-  </main>
+  
   
 <!--Segunda secciom -->
-<section>
-  
+<section class = "row">
+
+ <h2 class="center-align">Contactos</h2>
+ <h5 class="center-aling-black-text">Enviamos tu opinion</h5>
+<!--Columna de Formulario-->
+  <article class="extra col s12 m6 l6">  
+    <h6 class="center-aling">Rellene los campos</h6> 
+    <hr>
+
+<form action="">
+  <div class="input-field col s12 ">
+    <i class="material-icons prefix  red-text">account_circle</i>
+    <input type="text" id="icon_prefix" class="validate">
+    <label for="first_name">Nombre Completo</label>
+  </div>
+
+  <div class="input-field col s12">
+     <i class="material-icons prefix red-text ">contact_mail</i>
+    <input type="email" id="icons_prefix" class="validate">
+    <label for="email" data-error="wrong" data-success="right">Correro Electronico</label>
+  </div>
+  <div class="input-field col s12">
+     <i class="material-icons prefix red-text">chat</i>
+    <textarea id="icons_prefix" class="materialize-textarea"></textarea>
+    <label for="textarea1">Comentario</label>
+  </div>
+  <button class="btn waves-effect waves-light red" type="submit" name="action">Enviar
+    <i class="material-icons right">send</i>
+  </button>
+</form>
+<!--Columna de informacion--> 
+  </article class="forma col s12 m6 l6">
+  <h4 class="center-align"> Informacion</h4>
+  <ul>
+    <li>Direccion: <p class="blue-text">Gasolinera puma 800 metros al oeste</p></li>
+    <li>Direccion: <p class="blue-text">proyectoweb@gmail.com</p></li>
+    <li>Direccion: <p class="orenge-text"> (505)25122694</p></li>
+  </ul>
+  </article>
 </section>
 
-    
+<div class="parallax-container">
+  <div class="parallax"><img src="img/imagen1.jpg"></div>
+</div>
+
+  <section class="row">
+    <!--seccion de noticias-->
+     <h2 class="center-align">Noticias Relevantes</h2>
+     <h5 class="center-aling-black-text">Ven y descuble lo mejor en tecnologia</h5>
+<!--cartas de contenido mz-card-->
+     <article class="col s12 m3 l3">
+       <div class="card">
+         <div class="card-image">
+           <img src="img/imagen1.jpg" alt=""/>
+           <span class="card-title"></span>
+         </div>
+         <div class="card-content">
+           <p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p>
+         </div>
+         <div class="card-action">
+           <a href="#">Ver notcia1</a>
+         </div>
+       </div>
+
+     </article>
+
+     <article class="col s12 m3 l3">
+             <div class="card">
+         <div class="card-image">
+           <img src="img/imagen2.jpg" alt=""/>
+           <span class="card-title"></span>
+         </div>
+         <div class="card-content">
+           <p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p>
+         </div>
+         <div class="card-action">
+           <a href="#">Ver noticia 2</a>
+         </div>
+       </div>
+     </article>
+
+     <article class="col s12 m3 l3">
+             <div class="card">
+         <div class="card-image">
+           <img src="img/imagen3.jpg" alt=""/>
+           <span class="card-title"></span>
+         </div>
+         <div class="card-content">
+           <p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p>
+         </div>
+         <div class="card-action">
+           <a href="#">Ver noticia 3</a>
+         </div>
+       </div>
+     </article>
+
+     <article class="col s12 m3 l3">
+             <div class="card">
+         <div class="card-image">
+           <img src="img/imagen4.jpg" alt=""/>
+           <span class="card-title"></span>
+         </div>
+         <div class="card-content">
+           <p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p>
+         </div>
+         <div class="card-action">
+           <a href="#">Ver noticia 4</a>
+         </div>
+       </div>
+     </article>
+  </section>
+
+    </main>
+
+    <!-- pie de pagina mz-footer-->
+    <footer class="grey darken-4 page-footer">
+      <div class="footer-copyright">
+        <div class="container center">
+          © 2016 Christhian Alexander Acevedo Blandon
+        </div>
+      </div>
+    </footer> 
 
   <script src="js/jquery.min.js"></script>
   <script src="js/materialize.min.js"></script>
@@ -119,6 +236,8 @@
       $(".button-collapse").sideNav();
       $(".dropdown-button").dropdown();
        $('.slider').slider({heigth:250});
+       $('.parallax').parallax();
+
     })
      
   </script>
