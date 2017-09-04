@@ -17,23 +17,23 @@
         <a href="#" class="brand-logo">Christhian Acevedo</a>
         <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contactos</a></li>
-          <li><a href="#">Noticias</a></li>
+          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#Servicios">Servicios</a></li>
+          <li><a href="#Contactos">Contactos</a></li>
+          <li><a href="#Noticias">Noticias</a></li>
         </ul>
         <ul class="side-nav" id="mobile-menu">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contactos</a></li>
-          <li><a href="#">Noticias</a></li>
+          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#Servicios">Servicios</a></li>
+          <li><a href="#Contactos">Contactos</a></li>
+          <li><a href="#Noticias">Noticias</a></li>
         </ul>
       </div>
     </nav>
   </div>
 
   <!--Slider de imagenes-->
-    <div class="slider">
+    <div class="slider menu" id="Inicio">
       <ul class="slides">
         <li>
           <img src="img/imagen1.jpg" alt=""> <!-- random image -->
@@ -72,7 +72,7 @@
   <!--inicio del contenido main-->
   <main>
     <!--seccion de servicios-->
-    <section class="row">
+    <section class="row menu" id="Servicios">
       <h2 class="center-align red-text">Servicios</h2>
       <p class="center-align orange">Estos son nuestros servicios para usted</p>
       <!-- primer articulo una columna-->
@@ -105,9 +105,9 @@
   
   
 <!--Segunda secciom -->
-<section class = "row">
+<section class = "row menu" id="Contactos">
 
- <h2 class="center-align">Contactos</h2>
+ <h2 class="center-align red-text">Contactos</h2>
  <h5 class="center-aling-black-text">Enviamos tu opinion</h5>
 <!--Columna de Formulario-->
   <article class="extra col s12 m6 l6">  
@@ -137,7 +137,7 @@
 </form>
 <!--Columna de informacion--> 
   </article class="forma col s12 m6 l6">
-  <h4 class="center-align"> Informacion</h4>
+  <h4 class="center-align red-text"> Informacion</h4>
   <ul>
     <li>Direccion: <p class="blue-text">Gasolinera puma 800 metros al oeste</p></li>
     <li>Direccion: <p class="blue-text">proyectoweb@gmail.com</p></li>
@@ -150,9 +150,9 @@
   <div class="parallax"><img src="img/imagen5.jpg"></div>
 </div>
 
-  <section class="row">
+  <section class="row menu" id="Noticias">
     <!--seccion de noticias-->
-     <h2 class="center-align">Noticias Relevantes</h2>
+     <h2 class="center-align red-text">Noticias Relevantes</h2>
      <h5 class="center-aling-black-text">Ven y descuble lo mejor en tecnologia</h5>
 <!--cartas de contenido mz-card-->
      <article class="col s12 m3 l3">
@@ -237,7 +237,7 @@
       $(".dropdown-button").dropdown();
        $('.slider').slider({heigth:250});
        $('.parallax').parallax();
-
+       $('.menu').scrollSpy();
     })
      
   </script>
