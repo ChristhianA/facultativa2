@@ -1,0 +1,393 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Uso de MaterializeCSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+   <!--menu responsivo-->
+  <div  class="tamaño navbar-fixed">
+     <!--<nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+        <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+        <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+        <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+      </ul>
+    </div>
+  </nav>-->
+
+      <nav class=" tamaño grey accent-3">
+      <div class="nav-wrapper">
+        
+        <a href="#" class=" black-text brand-logo"><i class="material-icons"> <img src="img/logo-spotify.png" alt=""></i>Spotify®</a>   
+        <a href="#" data-activates="mobile-menu" class=" right button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="hoy right hide-on-med-and-down">
+          <li class="size"><a href="#">Premium</a></li>
+          <li><a href="#">Ayuda</a></li>
+          <li><a href="#">Descargar</a></li>
+          <li><a href="#">|</a></li>
+          <li><a href="#">Registrarse</a></li>
+          <li><a href="#">Inicio de sesion</a></li>
+        </ul>
+        <ul class="hoy side-nav" id="mobile-menu">
+          <li><a href="#">Premium</a></li>
+          <li><a href="#">Ayuda</a></li>
+          <li><a href="#">Descargar</a></li>
+          <li><a href="#">__</a></li>
+          <li><a href="#">Registrarse</a></li>
+          <li><a href="#">Inicio de sesion</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>    
+
+
+  <!--inicio del contenido main-->
+  <main>
+      <!--Slider de imagenes-->
+  <section class="img"> 
+    <div class=" slider">
+      <ul class="img slides">
+        <li> 
+          <div class="caption center-align">
+            <h1> Escucha Spotify en </h1>
+              <h1> PlayStation®.</h1>
+              <button class="btn btn-green " type="submit" name="action">Saber Mas
+              <i class="material-icons right"></i>
+              </button>
+          </div>
+        </li>
+
+        <li>
+          <div class="caption center-align">
+            <h1>Musica para Todos</h1>
+            <button class="btn btn-green btn-free js-goto-signup js-button-hero-get-free" type="submit" name="action">Conseguir Spotify Gratis
+              <i class="material-icons right"></i>
+              </button>
+             
+            <button class="btn btn-stroked-light js-button-hero-get-premium" type="submit" name="action">Conseguir Spotify Premium
+              <i class="material-icons right"></i>
+              </button>
+            
+          </div>
+        </li>
+        <li> 
+          <div class="caption right-align">
+            <h1>Premium para toda tu familia.<br>Solo 14,99&nbsp;€.</h1>
+            <button class="center btn btn-green js-button-hero-family" type="submit" name="action">Saber Mas
+              <i class="material-icons right"></i>
+              </button>
+          </div>
+        </li>
+        <li>
+          <div class="caption center-align">
+            <h1>Estudiantes: 50 % de descuento en Premium.</h1>
+        <a href="" class="btn btn-green js-button-hero-student" id="student-btn-plan" data-tracking='{"category": "home (student)", "action": "learn-more"}'>
+          SABER MÁS
+        </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    </section>
+
+    <!--seccion de servicios y videos  de spotifi-->
+    <section class="container1 row">
+      <div class="container1">
+       <!-- primer articulo una columna-->
+        <article class='col s12 m6'>
+          <div class='icon-block'>
+            <h3 class=" black-text">Que hay en Spotify?</h3>
+            <h5 class="">Musica</h5>
+            <p class='light'>En Spotify tiene millones de canciones. Escucha tus favoritas,<br>
+              descubre musica nueva y monta la coleccion perfecta
+            </p>
+             <h5 class="">Listas de Reproducion</h5>
+            <p class='light'>Encontraras playlist ya hechas que van con tu estado de <br>
+              animo, recopiladas por fans y por expertos de la musica.
+            </p>
+             <h5 class="">Nuevos Lanzamientos</h5>
+            <p class='light'>Escucha los ultimos singles y albunes de esta semana y echa <br>
+              un vistazo a lo que mas triunfa en el top 50.
+            </p>
+          </div>
+        </article>  
+
+         <!-- primer articulo una columna-->             
+        <article class='col s6 m6  '>
+          <div class=''>
+            <iframe width="240" height="240" src="https://www.youtube.com/embed/wnJ6LuUFpMo?list=PL6ahrXJmrOz6Qojv8bqHlCWGgr1uuOvPh" frameborder="1" allowfullscreen></iframe>
+            <iframe width="240" height="240" src="https://www.youtube.com/embed/kJQP7kiw5Fk?list=PL6ahrXJmrOz6Qojv8bqHlCWGgr1uuOvPh" frameborder="1" allowfullscreen></iframe>
+            <iframe width="240" height="240" src="https://www.youtube.com/embed/3bYwnd0CbLg" frameborder="1" allowfullscreen></iframe>
+            <iframe width="240" height="240" src="https://www.youtube.com/embed/vhloWemOPgI" frameborder="1" allowfullscreen></iframe>  
+          </div>
+        </article>
+        </div>
+    </section>
+      <br><br>
+       <!-- seccion de contenido de  de enlaces-->
+     <section class="container row">  
+       <div class="container">      
+        <article class='col m8 l6'>
+          <div class='icon-block'>
+            <h5 class='center black-text'>Especialmente para ti</h5>
+             <img src="img/mix.jpg" alt=""> 
+             <img src="img/mix1.jpg" alt=""> <br><br>
+
+          <li><a id="lista" href="#">Listas de Exitos</a></li>
+          <li><a id="lista" href="#">Nuevos Lanzamientos</a></li>
+          <li><a id="lista" href="#">Videos</a></li>
+          <li><a id="lista" href="#">Podcast</a></li>
+          <li><a id="lista" href="#">Descubrir</a></li>
+          <li><a id="lista" href="#">Conciertos</a></li>
+           
+          </div>
+       </article> <br>
+ <!-- Segundo articulo una columna-->
+        <article class='todo col s12 m6'>
+          <div class=''>
+            <h3 class=" black-text">Es muy facil.</h3>
+            <h5 class="">Buscar</h5>
+            <p class='light'> Ya sabes lo que quieres escuchar,pues  <br> 
+              simplemente buscalo y dale play.
+            </p>
+             <h5 class="">Explorar</h5>
+            <p class='light'>Echa un vistazo en las ultimas listas de exitos, los Lanzamientos<br>
+              mas recientes y playlist geniales para este mismo momento
+            </p>
+             <h5 class="">Descubrir</h5>
+            <p class='light'>Disfruta de Musica nueva cada lunes con tu propia<br>
+              playlist personal. O sientate a tus anchas a escuchar <br>
+              nuestras radios
+            </p>
+          </div>
+        </article> 
+        </div> 
+    </section>
+
+     <!-- seccion de contenido de spotifi cuenta y audio-->
+     <section class="row">        
+ <!-- Segundo articulo una columna-->
+        <article class='col s12 m6'>
+          <div class='icon-block'>
+            <div>
+              <h3 class=" black-text">Una Cuenta. Musica en <br> todas partes.</h3>
+                <h5 class="">Movil</h5>           
+                <h5 class="">Ordenador</h5>           
+                <h5 class="">Tablet</h5>
+                <h5 class="">Coche</h5>
+                <h5 class="">Altavoces</h5>  
+                <h5 class="">Tv</h5>
+                <h5 class="green-text">Reproductor Web</h5>
+                <h5 class="green-text">PlayStation®</h5>
+            </div>          
+           </div>             
+        </article>
+         <!-- primer articulo una columna-->             
+        <article class='col s12 m6'>
+          <div class='icon-block'>
+               <img src="img/audio.svg" alt="">
+          </div>
+        </article> 
+    </section>
+
+         <!-- Seccion de  ofertas de spotify-->  
+         <section class="container2 center row">
+           <div class="container2 ">
+             
+             <h1 class="center text">Hazte con la Musica.</h1>
+             
+             <article class="center col m2">
+             </article>
+
+         <!-- primer articulo una columna-->   
+              <article class=" libre2 center col s12 m4 ">
+                <div class="card">
+                  <div class="card-content">
+                      <h4>Spotify Free</h4>  
+                       <h5>0,00&nbsp;€ <span class="month"> / mes</span></h5> <br>
+                        <hr>                  
+                         <div class="libre">
+                          <ul class="spotify-free-list">
+                            <li>Modo aleatorio</li>
+                            <li>Sin anuncios</li>
+                            <li>Saltar canciones sin límites</li>
+                            <li>Modo sin conexión</li>
+                            <li>A la carta</li>
+                            <li>Audio de alta calidad</li><br>
+                          </ul>
+                          <hr>
+                          <a href="" class="btn btn-green js-button-module-get-premium" data-tracking='{"category": "home (subscriptions)", "action": "premium"}'>
+                                          REGISTRATE GRATIS </a>
+                        </div>
+                  </div>                                  
+               </div>                
+              </article> 
+                            
+              <article class=" libre2 center col s12 m4 ">
+                <div class="card">
+                  <div class="card-content">
+                      <h4>Spotify Premium</h4>  
+                       <h5>99,9&nbsp;€ <span class="month"> / mes</span></h5>
+                       <h6 id="dia">Empieza tu prueba gratis de 30 dias*</h6>
+                      <p id="dia">Tenemos Ofertas Familiares y para Estudiantes</p>                    
+                        <hr>                  
+                         <div class="libre">
+                          <ul>
+                            <li>Modo aleatorio</li>
+                            <li>Sin anuncios</li>
+                            <li>Saltar canciones sin límites</li>
+                            <li>Modo sin conexión</li>
+                            <li>A la carta</li>
+                            <li>Audio de alta calidad</li><br>
+                          </ul>
+                          <hr>
+                          <a href="" class="btn btn-red js-button-module-get-premium" data-tracking='{"category": "home (subscriptions)", "action": "premium"}'>
+                                          OBTEN PREMIUM </a>
+                        </div>
+                  </div>                                 
+               </div>                
+              </article> 
+
+               <article class="center col s12 m2 l12">
+                    <p class="small small-details text-center">
+            *Se aplican los términos y condiciones de la Oferta de Prueba Gratuita de 30 Días de Spotify®. Los usuarios que se hayan suscrito <br>
+             al servicio Premium o Unlimited o que hayan tenido una prueba no son aptos para esta oferta. </p>
+             </article>                  
+           </div>                   
+        </section>
+
+        <footer class=" container4 black row">
+          <div class="col s12 m2">
+              <a href="#" class="brand-logo"><i class=" white material-icons"><img src="img/spotify.png" alt=""></i>Spotify®</a> 
+         </div>
+
+          <div class="col s6 m2 l3" >
+              <h5>EMPRESA</h5>
+                <ul id="texto">                      
+                   <li ><a id="texto" href="" data-ga-category="menu" data-ga-action="about">Acerca de</a></li>
+                   <li ><a id="texto" href="" data-ga-category="menu" data-ga-action="about">Empleo</a></li>
+                  <li ><a id="texto" href="" data-ga-category="menu" data-ga-action="about">Prensa</a></li>
+                  <li ><a id="texto" href="" data-ga-category="menu" data-ga-action="about">Noticias</a></li>
+                </ul>
+         </div>
+            
+          <div class="col s6 m2 l3">
+            <h5>COMUNIDADES</h5>
+              <ul id="texto2">                      
+                <li ><a id="texto2" href="" data-ga-category="menu" data-ga-action="about">Para Artistas</a></li>
+                <li ><a id="texto2" href="" data-ga-category="menu" data-ga-action="about">Desarrolladores</a></li>
+                <li ><a id="texto2" href="" data-ga-category="menu" data-ga-action="about">Marcas</a></li>
+              </ul>
+         </div>
+          
+        <div class="col s4 m2 l2">
+              <h5>ENLACES UTILES</h5>
+                <ul id="texto1">                      
+                  <li ><a id="texto1"  href="" data-ga-category="menu" data-ga-action="about">Ayuda</a></li>   
+                  <li ><a id="texto1" href="" data-ga-category="menu" data-ga-action="about">Regalo</a></li>
+                  <li ><a id="texto1" href="" data-ga-category="menu" data-ga-action="about">Reproductor Web</a></li>
+                </ul> 
+        </div>
+              <br>
+          
+        <div class="col s12 m2 l2">
+           <a href="URL-FACEBOOK" target="_blank"><img alt="siguenos en facebook" height="40" src="http://3.bp.blogspot.com/-MQuocq7OzfU/UiXwUY81yQI/AAAAAAAAB0Q/h6-R_R2-buI/s1600/face.png" title="siguenos en facebook" width="40" /></a>
+           <a href="URL-Twitter" target="_blank"><img alt="siguenos en Twitter" height="40" src="http://2.bp.blogspot.com/-B0wCtNXYV3U/UiX1VnAQSrI/AAAAAAAAB6Q/ILY3m0NJVE8/s1600/Twitter+NEW.png" title="siguenos en Twitter" width="40" /></a>
+            <a href="URL-Instagram" target="_blank"><img alt="sígueme en Instagram" height="40" src="http://1.bp.blogspot.com/-W48rolePumw/UiYL4eC9GzI/AAAAAAAAB8o/DvtHoNsZp2U/s1600/instagram.png" title="sígueme en Instagram" width="40" /></a> 
+        </div>
+         
+        <div class="col s12">
+           <li><a href=""></a>Legal</li>
+            <li><a href=""></a>Privacidad</li>
+            <li><a href=""></a>Cookies</li>
+          <li><a href=""></a>Informacion sobre lo anuncios</li>
+        </div>
+           
+          <div class="container4 right col <s3></s3> m3 ">
+             © 2017 - Christhian Alexander Acevedo Blandon
+          </div>
+
+        </footer>
+
+         
+
+             <!--<footer class="row container4 ">            
+                      
+                      <article class="col s12 m4">
+                          <di class="card-content">
+                          <a href="#" class="brand-logo"><i class="material-icons"><img src="img/spotify.png" alt=""></i>Spotify®</a> 
+                        </di> 
+                    </article><br><br><br>
+                                 
+                    
+                      
+                      <article id="texto" clas= "col-xs-12">                                          
+                        <h5>EMPRESA</h5>
+                          <ul id="texto">                      
+                          <li ><a id="texto" href="" data-ga-category="menu" data-ga-action="about">Acerca de</a></li>
+                          <li ><a id="texto" href="" data-ga-category="menu" data-ga-action="about">Empleo</a></li>
+                          <li ><a id="texto" href="" data-ga-category="menu" data-ga-action="about">Prensa</a></li>
+                          <li ><a id="texto" href="" data-ga-category="menu" data-ga-action="about">Noticias</a></li>
+                          </ul>      
+                      </article>
+                    
+                  
+
+                      <article id="texto2" clas= "col-xs-12">                                          
+                        <h5>COMUNIDADES</h5>
+                          <ul id="texto2">                      
+                          <li ><a id="texto2" href="" data-ga-category="menu" data-ga-action="about">Para Artistas</a></li>
+                          <li ><a id="texto2" href="" data-ga-category="menu" data-ga-action="about">Desarrolladores</a></li>
+                          <li ><a id="texto2" href="" data-ga-category="menu" data-ga-action="about">Marcas</a></li>
+                          </ul>      
+                      </article>
+
+                      <article id="texto1" clas= "col-xs-12">                                          
+                        <h5>ENLACES UTILES</h5>
+                          <ul id="texto1">                      
+                          <li ><a id="texto1"  href="" data-ga-category="menu" data-ga-action="about">Ayuda</a></li>   
+                          <li ><a id="texto1" href="" data-ga-category="menu" data-ga-action="about">Regalo</a></li>
+                          <li ><a id="texto1" href="" data-ga-category="menu" data-ga-action="about">Reproductor Web</a></li>
+                          </ul>      
+                      </article>
+
+                      <article clas= "col">
+                        <a href="URL-FACEBOOK" target="_blank"><img alt="siguenos en facebook" height="40" src="http://3.bp.blogspot.com/-MQuocq7OzfU/UiXwUY81yQI/AAAAAAAAB0Q/h6-R_R2-buI/s1600/face.png" title="siguenos en facebook" width="40" /></a>
+                        <a href="URL-Twitter" target="_blank"><img alt="siguenos en Twitter" height="40" src="http://2.bp.blogspot.com/-B0wCtNXYV3U/UiX1VnAQSrI/AAAAAAAAB6Q/ILY3m0NJVE8/s1600/Twitter+NEW.png" title="siguenos en Twitter" width="40" /></a>
+                        <a href="URL-Instagram" target="_blank"><img alt="sígueme en Instagram" height="40" src="http://1.bp.blogspot.com/-W48rolePumw/UiYL4eC9GzI/AAAAAAAAB8o/DvtHoNsZp2U/s1600/instagram.png" title="sígueme en Instagram" width="40" /></a>    
+                      </article>                                  
+             
+
+                      <div class="footer-copyright">
+                        <div class="container4 center">
+                          © 2017 - Christhian Alexander Acevedo Blandon
+                      </div>
+                    </div>               
+        
+          </footer>-->
+         
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+
+  <script>  
+    $( document ).ready(function(){
+      $(".button-collapse").sideNav();
+      $(".dropdown-button").dropdown();
+       $('.slider').slider({heigth:250});
+       $('.parallax').parallax();
+
+    })
+     
+  </script>
+</body>
+</html>
