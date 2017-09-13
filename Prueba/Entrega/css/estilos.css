@@ -1,0 +1,118 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/icon.woff2) format('woff2');
+}
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+ 
+  -webkit-font-smoothing: antialiased;
+}
+s#sidenav-overlay{
+  z-index: 0;  
+}
+nav{
+ opacity: 0.5;
+ font-family: fantasy;
+ padding: 13px; 
+ height: 12px;
+}
+nav ul a{
+color: black;
+height: 15px;
+}
+
+.extra,forma{
+  margin-top:px 
+}
+.parallax-container{
+  height: 250px;
+}
+.tamaño{
+height: 90px;
+
+}
+.img{
+  height: 500px;
+  background-image: url("../img/fondo6.jpg");
+  background-repeat: round;
+}
+.container{ 
+  width: 1350px;
+  height: 450px;
+
+  background-color: seagreen;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+}
+.todo{
+background-image:url("../img/fondo2.jpg");
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container1{
+   width: 1350px;
+  height: 450px;
+ 
+  font: oblique bold 120% cursive;  
+}
+#lista{
+	width:100%;
+	padding: 2px 0px;
+	color: black;
+	text-decoration:black;
+}
+#dia{
+  font-size: 9px;
+}
+.container2{
+background: skyblue;
+}
+.libre{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:left;
+  list-style-image: url("../img/chequeado.png");
+  list-style-position: inside;
+ }
+.libre2{
+border-block-start-color: beige;
+}
+
+.container4{ 
+  font-family: 'Times New Roman', Times, serif;
+  color: brown;
+
+}
+#texto{
+     color:whitesmoke;     
+}
+  #texto1{
+    color:whitesmoke;  
+}
+    #texto2{
+    color:whitesmoke;  
+    }
+  #foter{
+    list-style-position: inherit;
+  }
+
+
+
+
+
+
