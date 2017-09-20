@@ -1,3 +1,4 @@
+
 var dato1 = document.getElementById("dato1");
 var dato2 = document.getElementById("dato2");
 var suma = document.getElementById("suma"); //botton de suma - evento click
