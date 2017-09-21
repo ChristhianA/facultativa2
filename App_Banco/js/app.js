@@ -63,7 +63,7 @@ CDP1.addEventListener('change', function(e){
             document.getElementById('total').innerHTML=((monto*0.0392)+(monto*0.05)).toFixed(2);
             
             document.getElementById('interesm').innerHTML=((monto*0.392)/12).toFixed(2);
-            document.getElementById('revm').innerHTML=((m*0.05)/12).toFixed(2);
+            document.getElementById('revm').innerHTML=((monto*0.05)/12).toFixed(2);
             document.getElementById('totalm').innerHTML=(((monto*0.0392)+(monto*0.05))/12).toFixed(2);
         }
 else
